@@ -120,20 +120,3 @@ Custom `age_group` column created:
 ![summary](image-13.png)
 
 ---
-
-## 🧾 SQL Queries Summary
-
-Key SQL operations included:
-- `GROUP BY` for smoker, region, sex
-- `CASE` to derive `age_group`
-- `ROW_NUMBER()` to calculate **median**
-- `ORDER BY` + `LIMIT` for top claimants
-- `JOIN` and `VIEW` creation for Power BI
-
-```sql
--- Sample: Avg claim by region
-SELECT region, ROUND(AVG(claim_cost), 2) AS avg_claim_cost
-FROM insurance
-GROUP BY region;
-
-
