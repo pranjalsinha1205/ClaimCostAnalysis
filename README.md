@@ -9,7 +9,7 @@ This project presents a data-driven analysis of claim costs using SQL and Power 
 - Source: [Kaggle - Medical Cost Personal Dataset](https://www.kaggle.com/datasets/mirichoi0218/insurance)
 - Records: 1,338
 - Fields:  
-  `age`, `sex`, `bmi`, `children`, `smoker`, `region`, `charges` (renamed to `claim_cost`)
+  `age`, `sex`, `bmi`, `children`, `smoker`, `region`, `charges`
 
 ---
 
@@ -17,15 +17,14 @@ This project presents a data-driven analysis of claim costs using SQL and Power 
 
 - **SQL (MySQL 8.0)**: Data wrangling, aggregation, filtering
 - **Power BI**: Interactive dashboard and visualization
-- *(Optional: Excel used for quick preview only)*
 
 ---
 
 ## 🧠 Key Insights
 
 ### 1. 🔥 Claim Cost by Smoking Status
-- **Smokers** have an average claim cost of **~$32,000**
-- **Non-smokers** average just **~$8,000**
+- **Smokers** have an average claim cost of **~$32050.23**
+- **Non-smokers** average just **~$8434.30**
 > Smoking is a strong indicator of high medical cost risk.
 
 ---
@@ -76,3 +75,10 @@ Key SQL operations included:
 SELECT region, ROUND(AVG(claim_cost), 2) AS avg_claim_cost
 FROM insurance
 GROUP BY region;
+
+
+## Tables
+
+![male-female-count](image.png)
+
+
