@@ -65,58 +65,58 @@ Custom `age_group` column created:
 
 **1)** Male and Female customers count
 
-![male-female-count](image.png)
+![male-female-count](images/image.png)
 
 **2)** Average charges by Sex
 
-![avg-charge-by-sex](image-1.png)
+![avg-charge-by-sex](images/image-1.png)
 
 **3)** Region-wise customer distribution
 
-![region-wise-population](image-2.png)
+![region-wise-population](images/image-2.png)
 
 **4)** Region-wise average age and BMI
 
-![avg-age-bmi-by-region](image-3.png)
+![avg-age-bmi-by-region](images/image-3.png)
 
 **5)** Average charges per region
 
-![avg-charge-by-region](image-4.png)
+![avg-charge-by-region](images/image-4.png)
 
 **6)** Smoker count
 
-![smoker-count](image-5.png)
+![smoker-count](images/image-5.png)
 
 **7)** Average age and BMI for smokers and non-smokers
 
-![avg-age-bmi-smoker](image-6.png)
+![avg-age-bmi-smoker](images/image-6.png)
 
 **8)** Average charges for smokers and non-smokers
 
-![avg-charge-smoker](image-7.png)
+![avg-charge-smoker](images/image-7.png)
 
 **9)** Count of person per age group
 
-![person-age-group](image-8.png)
+![person-age-group](images/image-8.png)
 
 **10)** Average BMI per age group
 
-![avg-bmi-age-group](image-9.png)
+![avg-bmi-age-group](images/image-9.png)
 
 **11)** Average charges per age group
 
-![avg-charge-age-group](image-10.png)
+![avg-charge-age-group](images/image-10.png)
 
 **12)** Count of people in each BMI category
 
-![count-bmi-category](image-11.png)
+![count-bmi-category](images/image-11.png)
 
 **13)** Average charges per BMI category
 
-![avg-charge-bmi-group](image-12.png)
+![avg-charge-bmi-group](images/image-12.png)
 
 **14)** Summary
 
-![summary](image-13.png)
+![summary](images/image-13.png)
 
 ---
