@@ -1,0 +1,17 @@
+region,smoker,sex,total_people,avg_age,avg_bmi,avg_claim_cost
+southwest,yes,female,21,37.0,30.13,31687.99
+southeast,no,male,134,38.3,34.13,7609
+northwest,no,male,132,38.6,28.93,8320.69
+southeast,no,female,139,39.1,32.78,8440.21
+northwest,no,female,135,39.8,29.49,8787
+northeast,no,male,125,39.2,28.86,8664.04
+southeast,yes,female,36,39.3,32.25,33034.82
+southwest,no,male,126,40.3,31.02,7778.91
+southeast,yes,male,55,40.1,33.65,36029.84
+northeast,no,female,132,39.8,29.78,9640.43
+southwest,yes,male,37,35.6,31.5,32598.86
+southwest,no,female,141,40.1,30.05,8234.09
+northeast,yes,female,29,38.7,27.26,28032.05
+northeast,yes,male,38,37.9,29.56,30926.25
+northwest,yes,male,29,39.8,29.98,30713.18
+northwest,yes,female,29,38.8,28.3,29670.82
