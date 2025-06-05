@@ -16,7 +16,7 @@ FROM insurance
 GROUP BY sex; 
 
 -- retrieve the average charges per gender
-SELECT sex, AVG(charges) AS average_charges
+SELECT sex, ROUND(AVG(charges), 2) AS average_charges
 FROM insurance
 GROUP BY sex
 ORDER BY average_charges; 
@@ -32,7 +32,7 @@ FROM insurance
 GROUP BY region;
 
 -- retrieve the average charges per region
-SELECT region, AVG(charges) AS average_charges 
+SELECT region, ROUND(AVG(charges), 2) AS average_charges 
 FROM insurance
 GROUP BY region
 ORDER BY average_charges; 
@@ -42,8 +42,13 @@ SELECT smoker, COUNT(smoker) AS count
 FROM insurance
 GROUP BY smoker;
 
+-- Avg age and BMI for smoker and non-smoker
+SELECT smoker, ROUND(AVG(age), 1) AS avg_age, ROUND(AVG(bmi), 2) AS avg_bmi
+FROM insurance
+GROUP BY smoker;
+
 -- retrieve average charges based on the person being smoker
-SELECT smoker, AVG(charges) AS average_charges
+SELECT smoker, ROUND(AVG(charges), 2) AS average_charges
 FROM insurance
 GROUP BY smoker
 ORDER BY average_charges; 
@@ -66,8 +71,12 @@ SELECT age_group, COUNT(age_group) as count
 FROM insurance
 GROUP BY age_group;
 
+SELECT age_group, ROUND(AVG(bmi), 2) AS avg_bmi
+FROM insurance
+GROUP BY age_group;
+
 -- average charges per age group
-SELECT age_group, AVG(charges) as average_charges
+SELECT age_group, ROUND(AVG(charges), 1) as average_charges
 FROM insurance
 GROUP BY age_group
 ORDER BY average_charges; 
@@ -86,12 +95,12 @@ SET bmi_group = CASE
 END;
 
 -- retrieve the count of persons in different bmi categories
-SELECT bmi_group, COUNT(bmi_group)
+SELECT bmi_group, COUNT(bmi_group) as count
 FROM insurance
 GROUP BY bmi_group;
 
 -- average charges per bmi group
-SELECT bmi_group, AVG(charges) as average_charges
+SELECT bmi_group, ROUND(AVG(charges), 2) as average_charges
 FROM insurance
 GROUP BY bmi_group
 ORDER BY average_charges; 
@@ -110,3 +119,4 @@ FROM insurance
 GROUP BY region, smoker, sex;
 
 SELECT * FROM insurance_summary;
+
