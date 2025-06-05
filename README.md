@@ -61,6 +61,12 @@ Custom `age_group` column created:
 
 ---
 
+### Tables
+
+![male-female-count](image.png)
+
+---
+
 ## 🧾 SQL Queries Summary
 
 Key SQL operations included:
@@ -75,10 +81,5 @@ Key SQL operations included:
 SELECT region, ROUND(AVG(claim_cost), 2) AS avg_claim_cost
 FROM insurance
 GROUP BY region;
-
-
-## Tables
-
-![male-female-count](image.png)
 
 
